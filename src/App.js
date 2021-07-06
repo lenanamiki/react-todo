@@ -4,7 +4,7 @@ import TodoItem from "./components/TodoItem";
 function App() {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
-    <div>
+    <div className="container">
       <TodoItem />
     </div>
   );
