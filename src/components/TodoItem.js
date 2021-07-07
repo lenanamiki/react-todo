@@ -1,6 +1,6 @@
 import React from "react";
 
-const TodoItem = (props) => {
+function TodoItem(props) {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
     <div className="todo-item">
