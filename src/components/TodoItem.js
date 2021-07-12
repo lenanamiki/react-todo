@@ -1,6 +1,8 @@
 import React from "react";
 
 function TodoItem(props) {
+  const completedClass = props.item.completed ? "complete" : "incomplete";
+
   return (
     <div className="todo-item">
       <input
@@ -8,7 +10,7 @@ function TodoItem(props) {
         checked={props.item.completed}
         onChange={() => { props.handleChange(props.item.id); }}
       />
-      <p>{props.item.text}</p>
+      <p className={completedClass}>{props.item.text}</p>
     </div>
   );
 };

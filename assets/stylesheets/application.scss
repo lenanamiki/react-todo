@@ -24,3 +24,12 @@ body {
     margin-right: 4px;
   }
 }
+
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.incomplete {
+  font-weigth: bold;
+}
